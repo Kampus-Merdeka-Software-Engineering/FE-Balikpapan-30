@@ -17,7 +17,6 @@ nav{
     color: #19A7CE;
     display: flex;
     justify-content: space-between;
-    position: sticky;
     top: 0;
 }
 
@@ -63,14 +62,24 @@ nav{
     text-decoration: none;
   }
 
-.hero-section{
+  .hero-section{
     width: 100%;
     height: 670px;
     padding: 0px 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-flex;
+    align-items: flex-end;
+    background-image: url('service.jpg');
+    background-size: cover;
+}
+
+.hero-information{
     background-color: white;
+    padding: 4px 32px;
+    border-radius: 12px;
+    width: 1000px;
+    margin: 0 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .hero-information h1{
@@ -80,33 +89,10 @@ nav{
     color: #146C94;
 }
 
-.hero-information p{
-    font-size: 20px;
-    margin-bottom: 28px;
-    text-align: left;
-    color: #146C94;
-}
-
-.hero-section a{
-    padding: 4px 32px;
-    background-color: #19A7CE;
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    border-radius: 12px;
-    margin-bottom: 12px;
-}
-
-.hero-image img{
-    width: 80%;
-    height: 100%;
-}
-
 .section{
     width: 100%;
-    height: 800px;
-    background-color: #BAD7E9;   
+    height: 1500px;
+    background-image: linear-gradient(180deg, white, #BAD7E9); 
 }
 
 .section-title h1{
@@ -157,22 +143,84 @@ margin-bottom: 100px;
     text-decoration: none;
   }
 
-  .readmore{
-    padding: 4px 32px;
+  button {
     background-color: #19A7CE;
-    font-size: 20px;
-    font-weight: 200;
     color: white;
-    text-decoration: none;
+    padding: 16px 20px;
     border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 250px;
+    margin-bottom: 20px;
   }
 
-.section .info{
-    text-align: center;
-    font-size: medium;
-}
+  button:hover {
+    opacity: 0.8;
+  }
 
-.footer{
+.doctors{
+background-color: #19A7CE;
+  }
+
+  .cancelbtn{
+    background-color: red;
+  }
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+  }
+  
+  .modal-content {
+    background: linear-gradient(270deg, white, #BAD7E9);
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 40%; 
+  }
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  .footer{
     width: 100%;
     height: 25px;
     background-color: white;
