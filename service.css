@@ -20,8 +20,8 @@ nav{
     top: 0;
 }
 
-.logo{
-    font-size: 34px;
+.logo img{
+    height: 70px;
     align-items: center;
     display: flex;
     font-weight: 600;
@@ -91,7 +91,7 @@ nav{
 
 .section{
     width: 100%;
-    height: 1500px;
+    height: 1600px;
     background-image: linear-gradient(180deg, white, #BAD7E9); 
 }
 

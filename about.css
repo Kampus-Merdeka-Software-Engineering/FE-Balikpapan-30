@@ -21,8 +21,8 @@ nav{
     top: 0;
 }
 
-.logo{
-    font-size: 34px;
+.logo img{
+    height: 70px;
     align-items: center;
     display: flex;
     font-weight: 600;
@@ -108,44 +108,12 @@ nav{
     margin: 40px 60px;
 }
 
-.visimisi{
+.footer{
     width: 100%;
-    height: 1050px;
-    background: linear-gradient(180deg, #AED2FF, white);
-    text-align: center;
-}
-
-.visi-misi h1{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    padding-top: 20px;
-    color: #146C94;
-}
-
-.visi-misi p{
+    height: 25px;
+    background-color: white;
     font-size: 20px;
     font-weight: 400;
-    margin: 40px 60px;
-}
-
-.divisi{
-    width: 100%;
-    height: 1050px;
-    background: linear-gradient(180deg, #AED2FF, white);
     text-align: center;
-}
-
-.divis h1{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    padding-top: 20px;
-    color: #146C94;
-}
-
-.divis p{
-    font-size: 20px;
-    font-weight: 400;
-    margin: 40px 60px;
+    margin: 20px 0px;
 }

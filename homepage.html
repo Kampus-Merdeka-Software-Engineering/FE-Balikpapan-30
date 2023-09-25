@@ -12,16 +12,118 @@
 <body>
     <nav>
         <div class="logo">
-            RevoU Hospital
+            <img src="logo.png">
+
         </div>
         <div class="wrap-menu">
             <a href="homepage.html" class="active">Home</a>
             <a href="about .html" class="menu">About</a>
             <a href="service.html" class="menu">Service</a>
             <a href="" class="menu">Doctors</a>
-            <a href="appointment.html" class="appointment-btn">Make an Appointment</a>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Make an Appointment</button>
+                
+                  <div id="id01" class="modal">
+                    <form class="modal-content animate" action="/action_page.php" class="form-container">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="logo.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter your name" name="name" required>
+
+      <label for="psw"><b>Age</b></label>
+      <input type="text" placeholder="Enter your age" name="age"  required>
+
+      <label for="gender">Gender</label>
+            <div class="specialist">
+              <select id="gender" name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+              </div>
+
+              <label for="phone"><b>Phone</b></label>
+              <input type="text" placeholder="Phone Number" name="number"  required>
+        
+              <label for="specialist">Specialist</label>
+                    <div class="specialist">
+                      <select id="spec" name="specialist">
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="Obstetrics">Obstetrics</option>
+                        <option value="Pediatrics">Pediatrics</option>
+                        <option value="Oncology">Oncology</option>
+                        <option value="Urology">Urology</option>
+                        <option value="Psychiatry">Psychiatry</option>
+                        <option value="Radiology">Radiology</option>
+                        <option value="Rehabilitation">Rehabilitation</option>
+                      </select>
+                      </div>
+                
+                      <label for="specialist">Doctors</label>
+                    <div class="specialist">
+                      <select id="spec" name="specialist">
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="Obstetrics">Obstetrics</option>
+                        <option value="Pediatrics">Pediatrics</option>
+                        <option value="Oncology">Oncology</option>
+                        <option value="Urology">Urology</option>
+                        <option value="Psychiatry">Psychiatry</option>
+                        <option value="Radiology">Radiology</option>
+                        <option value="Rehabilitation">Rehabilitation</option>
+                      </select>
+                      </div>
+        
+                      <div class="submit">
+                      <a href="">Submit</a>
+                    </div>
+                    </form>
+
+                  </div>
         </div>
     </nav>
+
+    <section class="hero-section1">
+      <div class="hero-information1">
+          <h1>WELCOME TO REVOU HOSPITAL</h1>
+          <p>At RevoU Hospital we are committed to providing<br>
+              world-classhealthcare with compassion, cutting-edge <br>
+              technology, and a patient-centric approach. <br>
+              Nestled in the heart of the bustling city, our hospital <br>
+              stands as a beacon of hope, healing, and <br>
+              health for the community.</p>
+              <a href="">
+                  Get Started
+              </a>
+      </div>
+  </section>
+
+  <section class="section1">
+    <div class="section-title1">
+        <div class="container1">
+            <div class="text1">
+                <h2>Our Doctor</h2>
+                <p>Our team of dedicated healthcare professionals <br>
+                    is at the heart of RevoU.</p>
+            </div>
+            <div class="separator"></div>
+            <div class="text2">
+                <h2>Health Fondation</h2>
+                <p>We believe that healthcare should be a collaborative <br>
+                    and engage patients in their care plans.</p>
+            </div>
+            <div class="separator"></div>
+            <div class="text3">
+                <h2>Accessibility</h2>
+                <p>RevoU Hospital is conveniently located <br>
+                    with easy access to public.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section class="hero-section">
         <div class="hero-image">
@@ -56,7 +158,7 @@
                   <div class="icon-box">
                     <h4><a href="" class="specialized">CARDIOLOGIST</a></h4>
                     <p>Treatment of heart diseases and heart abnormalities</p> <br> 
-                    <a href="" class="readmore">
+                    <a href="service.html" class="readmore">
                         Read More
                     </a>
                   </div>
@@ -64,7 +166,7 @@
                     <div class="icon-box">
                         <h4><a href="" class="specialized">ORTHOPEDICS</a></h4>
                       <p>Specializes in the musculoskeletal system</p> <br> 
-                      <a href="" class="readmore">
+                      <a href="service.html" class="readmore">
                         Read More
                     </a>
                     </div>
@@ -72,7 +174,7 @@
                     <div class="icon-box">
                         <h4><a href="" class="specialized">OBSTETRICS</a></h4>
                       <p>Dedicated to women's health throughout every stage of life</p> <br> 
-                      <a href="" class="readmore">
+                      <a href="service.html" class="readmore">
                         Read More
                     </a> <br>
                     </div>
@@ -81,13 +183,10 @@
                 </div>
 
             <div class="info">
-              <div class="button">
                 <a href="service.html" class="See More">
                   See More Information
               </a>
-            </div>
             </div> 
-          </div> 
     </section>
 
     <section class="footer">
