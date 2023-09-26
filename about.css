@@ -63,6 +63,7 @@ nav{
     text-decoration: none;
   }
 
+  
   .hero-section{
     width: 100%;
     height: 670px;
@@ -107,6 +108,130 @@ nav{
     font-weight: 400;
     margin: 40px 60px;
 }
+
+.visimisi {
+    margin: 10px 10px;
+    background-color: white;
+    height: 500px;
+    text-align: center;
+}
+
+.visimisi h1{
+padding-top: 30px;
+margin-bottom: 40px;
+color: #146C94;
+font-size: 40px;
+}
+
+.content-top {
+    display: flex;
+}
+
+.content-top-left {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.content-top-right {
+    width: 50%;
+text-align: justify;
+margin-left: 20px;
+}
+
+.section{
+    width: 100%;
+    height: 1020px;
+    background: #BAD7E9; 
+}
+
+.section-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #146C94;
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+    }
+    
+    .section .icon-box {
+        text-align: center;
+        border: 1px solid white;
+        padding: 80px 20px;
+        border-radius: 12px;
+        width: 40%;
+        margin: 0px 60px;
+        background: white;
+      }
+    
+      .specialized{
+        color: #146C94;
+        padding: 8px 25px;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 -120px 0;
+   
+  }
+  
+  img.avatar {
+    margin: -370px 0px;
+    width: 60%;
+    border-radius: 50%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #146C94;
+  }
+
+.plus{
+    width: 100%;
+    height: 700px;
+    background: #BAD7E9;
+}
+
+.plus .icon-box1 {
+    text-align: center;
+    border: 1px solid #146C94;
+    padding: 50px 20px;
+    border-radius: 12px;
+    width: 40%;
+    margin: 200px 50px;
+    background: white;
+    margin-top: 280px;
+  }
+
+  .plus .column{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .content{
+        color: white;
+        padding: 8px 25px;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+    .column h4{
+background: #146C94;
+padding: 8px 20px;
+border-radius: 50px;
+margin: -70px 0px;
+margin-bottom: 20px;
+    }
+
+    .column p{
+justify-content: center;
+margin-top: 5px;
+    }
 
 .footer{
     width: 100%;
