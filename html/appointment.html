@@ -7,6 +7,7 @@
     <title>Homepage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <script src="https://kit.fontawesome.com/6f0fe71ba7.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,17 +20,30 @@
             <a href="homepage.html" class="menu">Home</a>
             <a href="about .html" class="menu">About</a>
             <a href="service.html" class="menu">Service</a>
-            <a href="" class="menu">Doctors</a>
-            <a href="" class="appointment-btn">Appointment</a>
+            <a href="Doctor.html" class="menu">Doctors</a>
+            <a href="appointment.html" class="appointment-btn">Appointment</a>
     </nav>
 
     <section class="data">
         <h1>MAKE APPOINTMENT</h1>
         <a href="makeappointment.html">MAKE AN APPOINTMENT</a>
 
-        <div class="tabel">
-            
+        <div onload="getData()">
+            <table class="table table-striped" id="userTable">
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Doctor</th>
+                    <th>Reason</th>
+                    <th>Action</th>
+                </tr>
+                <tbody id="tbody">
+
+                </tbody>
+</table>
         </div>
     </section>
 
+   <script src="../js/appointment.js"></script>
     </body>

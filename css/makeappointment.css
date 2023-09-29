@@ -8,7 +8,7 @@
 }
 
 body {
-	background-image: url('../foto/signup.jpg');	
+	background-image: url('../foto/data.png');	
     background-size: cover;
 }
 
@@ -20,12 +20,12 @@ body {
 }
 
 .screen {		
-	background: black;
-    opacity: 0.8;	
+	background: #AED2FF;
+    opacity: 0.85;	
 	position: relative;	
 	height: 600px;
 	width: 50%;	
-	box-shadow: 0px 0px 24px white;
+	box-shadow: 0px 0px 24px #8CABFF;
     justify-content: center;
 }
 
@@ -45,9 +45,9 @@ body {
 
 .login img{
     width: 110%;
-    margin-bottom: 40px;
-    margin: 0px -60px;
-    margin-top: -50px;
+    margin-bottom: 30px;
+    margin: 30px -40px;
+    margin-top: -110px;
 }
 
 .login__field {
@@ -62,62 +62,48 @@ body {
 	color: white;
 }
 
-.login__input {
-	border: none;
-	border-bottom: 2px solid #D1D1D4;
-	background: none;
-	padding: 10px;
-	padding-left: 24px;
-	font-weight: 700;
-	width: 75%;
-	transition: .2s;
-    justify-content: center;
+
+select{
+	width: 90%;
+height:30px;
+background: white;
+margin-bottom: 20px;
 }
 
-.login__input:active,
-.login__input:focus,
-.login__input:hover {
-	outline: none;
-	border-bottom-color: #6A679E;
+input {
+	width: 90%;
+	height:30px;
+	background: white;
+	margin-bottom: 20px;
 }
 
 .login__submit {
 	background: #fff;
 	font-size: 14px;
-	margin-top: 30px;
+	margin-top: 10px;
 	padding: 16px 20px;
 	border-radius: 26px;
-	border: 1px solid #D4D3E8;
-	text-transform: uppercase;
+	border: 1px solid white;
 	font-weight: 700;
 	display: flex;
 	align-items: center;
 	width: 70%;
-	color: #4C489D;
-	box-shadow: 0px 2px 2px #5C5696;
+	color: black;
+	box-shadow: 0px 2px 2px #4477CE;
 	cursor: pointer;
 	transition: .2s;
-}
-
-.login p{
-	color: white;
-	margin-top: 20px;
-	margin-left: -25px;
-}
-
-.login a{
-color: blue;
-text-decoration: none;
+	margin-left: 30px;
 }
 
 .button__text{
-    margin: 0px 40px;
+	margin-left:45px;
 }
 
 .login__submit:active,
 .login__submit:focus,
 .login__submit:hover {
-	border-color: #6A679E;
+	background: #4477CE;
+	color: white;
 	outline: none;
 }
 

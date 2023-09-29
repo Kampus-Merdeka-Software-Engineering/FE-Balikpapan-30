@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="../css/makeappointment.css">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
@@ -13,29 +14,53 @@
   <div class="container">
     <div class="screen">
       <div class="screen__content">
-        <form class="login">
+        <form class="login" id="form">
             <img src="../foto/logo-removebg-preview.png" alt="Avatar" class="avatar">
           <div class="login__field">
-            <i class="login__icon fas fa-user"></i>
-            <input type="text" class="login__input" placeholder="Full Name">
-          </div>
-          <div class="login__field">
-            <i class="login__icon fas fa-envelope"></i>
-            <input type="text" class="login__input" placeholder="Email">
-          </div>
-          <div class="login__field">
-            <i class="login__icon fas fa-lock"></i>
-            <input type="password" class="login__input" placeholder="Password">
-          </div>
-          <button class="button login__submit">
-            <span class="button__text">SIGN UP</span>
+            <input type="text" id="fname" name="firstname" placeholder="Full Name" required>
+            <input type="text" id="fname" name="firstname" placeholder="Age" required>
+
+            <select id="gender" name="gender" required>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+
+            <input type="text" id="fname" name="firstname" placeholder="Phone Number" required>
+
+            <select id="specialist" name="specialist" required>
+              <option value="CARDIOLOGIST">CARDIOLOGIST</option>
+              <option value="ORTHOPEDICS">ORTHOPEDICS</option>
+              <option value="NEPHROLOGY">OBSTETRICS</option> 
+              <option value="PULMONOLOGY">PEDIATRICS</option> 
+              <option value="PSYCHIATRY">ONCOLOGY</option>
+              <option value="RADIOLOGY">UROLOGY</option>
+            </select>
+
+            <select id="docter" name="doctor" required>
+              <option value="Dr. Ethan Winters, Sp.JP">Dr. Ethan Winters, Sp.JP</option>
+              <option value="Dr. Jill Valen, Sp.PD, KKV">Dr. Jill Valen, Sp.PD, KKV</option>
+              <option value="Dr. Johnny Smith, Sp.OT">Dr. Johnny Smith, Sp.OT</option>
+              <option value="Dr. Judy Alvarez, Sp.OTM">Dr. Judy Alvarez, Sp.OTM</option>
+              <option value="Dr. Joel Miller, Sp.PD, KGH">Dr. Joel Miller, Sp.PD, KGH</option>
+              <option value="Dr. Ellie White, Sp.PD, KGH">Dr. Ellie White, Sp.PD, KGH</option>
+              <option value="Dr. Franklin Clint, Sp.PD, KP">Dr. Franklin Clint, Sp.PD, KP</option>
+              <option value="Dr. Abigail Marston, Sp.P">Dr. Abigail Marston, Sp.P</option>
+              <option value="Dr. Trevor Philips, Sp.KJ">Dr. Trevor Philips, Sp.KJ</option>
+              <option value="Dr. Sadie Adler, Sp.KJ">Dr. Sadie Adler, Sp.KJ</option>
+              <option value="Dr. Arthur Morgan, Sp.R">Dr. Arthur Morgan, Sp.R</option>
+              <option value="Dr. Lara Croft, Sp.R">Dr. Lara Croft, Sp.R</option>
+            </select>
+
+          <button class="button login__submit" required>
+            <span class="button__text">SUBMIT</span>
           </button>
 
-          <p>Already have an account? <a href="homepage.html">LOGIN<a></a></p>
         </form>
       </div>
     </div>
   </div>
 </body>
+
+
 
 </html>
