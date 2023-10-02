@@ -65,7 +65,7 @@ nav{
 
   .hero-section1{
     width: 100%;
-    height: 670px;
+    height: 750px;
     padding: 0px 120px;
     display: flex;
     justify-content: space-between;
@@ -100,8 +100,8 @@ nav{
 }
 
 .section1{
-  width: 100%;
-  height: 400px;
+  width: auto;
+  height: 600px;
   background-color: #BAD7E9;   
 }
 
@@ -123,7 +123,7 @@ nav{
 
 .separator {
   width: 4px;
-  height: 400px;
+  height: 600px;
   margin-top: 0px;
   background-color: #8CABFF;
 }
@@ -154,7 +154,7 @@ nav{
 
 .hero-section{
     width: 100%;
-    height: 670px;
+    height: 700px;
     padding: 0px 120px;
     display: flex;
     justify-content: space-between;
@@ -194,7 +194,7 @@ nav{
 
 .section{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color: #BAD7E9;   
 }
 
@@ -277,6 +277,7 @@ margin-bottom: 100px;
     background-color: red;
     font-size: 16px;
   }
+  
   .modal {
     display: none; 
     position: fixed; 

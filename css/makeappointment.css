@@ -47,11 +47,11 @@ body {
     width: 110%;
     margin-bottom: 30px;
     margin: 30px -40px;
-    margin-top: -110px;
+    margin-top: -140px;
 }
 
 .login__field {
-	padding: 20px 0px;	
+	padding: 0px 0px;	
 	position: relative;	
     justify-content: center;
 }
