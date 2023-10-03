@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;

@@ -21,6 +21,7 @@
             <input type="text" id="fname" name="firstname" placeholder="Age" required>
 
             <select id="gender" name="gender" required>
+              <option value="menu">Open this select menu</option>
               <option value="Male">Male</option>
               <option value="Female">Female</option>
             </select>
@@ -30,28 +31,16 @@
             <input type="text" id="fname" name="firstname" placeholder="Phone Number" required>
 
             <select id="specialist" name="specialist" required>
+              <option value="menu">Open this select menu</option>
               <option value="CARDIOLOGIST">CARDIOLOGIST</option>
               <option value="ORTHOPEDICS">ORTHOPEDICS</option>
-              <option value="NEPHROLOGY">OBSTETRICS</option> 
-              <option value="PULMONOLOGY">PEDIATRICS</option> 
-              <option value="PSYCHIATRY">ONCOLOGY</option>
-              <option value="RADIOLOGY">UROLOGY</option>
+              <option value="NEPHROLOGY">NEPHROLOGY</option> 
+              <option value="PULMONOLOGY">PULMONOLOGY</option> 
+              <option value="PSYCHIATRY">PSYCHIATRY</option>
+              <option value="RADIOLOGY">RADIOLOGY</option>
             </select>
 
-            <select id="docter" name="doctor" required>
-              <option value="Dr. Ethan Winters, Sp.JP">Dr. Ethan Winters, Sp.JP</option>
-              <option value="Dr. Jill Valen, Sp.PD, KKV">Dr. Jill Valen, Sp.PD, KKV</option>
-              <option value="Dr. Johnny Smith, Sp.OT">Dr. Johnny Smith, Sp.OT</option>
-              <option value="Dr. Judy Alvarez, Sp.OTM">Dr. Judy Alvarez, Sp.OTM</option>
-              <option value="Dr. Joel Miller, Sp.PD, KGH">Dr. Joel Miller, Sp.PD, KGH</option>
-              <option value="Dr. Ellie White, Sp.PD, KGH">Dr. Ellie White, Sp.PD, KGH</option>
-              <option value="Dr. Franklin Clint, Sp.PD, KP">Dr. Franklin Clint, Sp.PD, KP</option>
-              <option value="Dr. Abigail Marston, Sp.P">Dr. Abigail Marston, Sp.P</option>
-              <option value="Dr. Trevor Philips, Sp.KJ">Dr. Trevor Philips, Sp.KJ</option>
-              <option value="Dr. Sadie Adler, Sp.KJ">Dr. Sadie Adler, Sp.KJ</option>
-              <option value="Dr. Arthur Morgan, Sp.R">Dr. Arthur Morgan, Sp.R</option>
-              <option value="Dr. Lara Croft, Sp.R">Dr. Lara Croft, Sp.R</option>
-            </select>
+            <select name="subopsi" id="subopsi"></select>
 
           <button class="button login__submit" required>
             <span class="button__text">SUBMIT</span>
@@ -61,8 +50,8 @@
       </div>
     </div>
   </div>
+
+  <script src="../js/makeappointment.js"></script>
 </body>
-
-
 
 </html>
