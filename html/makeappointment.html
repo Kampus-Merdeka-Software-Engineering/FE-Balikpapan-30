@@ -2,12 +2,14 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="../css/makeappointment.css">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <link rel="stylesheet" href="../css/makeappointment.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Appointment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://kit.fontawesome.com/6f0fe71ba7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,7 +28,7 @@
               <option value="Female">Female</option>
             </select>
 
-            <input type="datetime-local" />
+            <input type="date" />
             
             <input type="text" id="fname" name="firstname" placeholder="Phone Number" required>
 
@@ -41,6 +43,8 @@
             </select>
 
             <select name="subopsi" id="subopsi"></select>
+
+    <textarea id="subject" name="subject" placeholder="Reason.." style="width:235px"></textarea>
 
           <button class="button login__submit" required>
             <span class="button__text">SUBMIT</span>
