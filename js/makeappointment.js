@@ -19,3 +19,4 @@ document.querySelector('#specialist').addEventListener('change', function() {
    
     document.querySelector("#subopsi").innerHTML = res;
 });
+
