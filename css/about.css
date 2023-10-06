@@ -69,7 +69,7 @@ nav{
     height: 670px;
     padding: 0px 120px;
     align-items: center;
-    background-image: url('../foto/about.jpg');
+    background-image: url('./foto/about.jpg');
     background-size: cover;
     display: flex;
 }
