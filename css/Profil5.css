@@ -102,8 +102,8 @@ nav{
     margin-top: 25px;
     text-align: left;
     margin-left: 15px;
-    color: white;
-    background-color: #AED2FF;
+    color: black;
+ 
     padding-left: 180px;
 }
 
@@ -114,8 +114,8 @@ nav{
     margin-top: 2px;
     text-align: left;
     margin-left: 15px;
-    color: white;
-    background-color: #AED2FF;
+    color: black;
+   
     padding-left: 130px;
 }
 
@@ -127,7 +127,7 @@ nav{
     margin-left: 15px;
     display: flex;
     color: #062b3b;
-    background-color: #AED2FF;
+ 
     padding-left: 170px;
 }
 
@@ -139,7 +139,7 @@ nav{
     margin-left: 15px;
     display: flex;
     color: #062b3b;
-    background-color: #AED2FF;
+
     padding-left: 150px;
     font-weight: 400;
 }

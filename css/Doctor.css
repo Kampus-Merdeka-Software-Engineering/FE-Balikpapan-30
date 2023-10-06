@@ -85,7 +85,7 @@ button:hover {
 
 section{
     width: 100%;
-    min-height: 100vh;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -171,13 +171,13 @@ section div.content{
 }
 
 .button-1 button {
-    width: auto;
-    margin-left: 10px;
-    margin-top: 30px;
+    width: 100%;
+   
+    margin-top: 75px;
     /* justify-content: center; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
-    background-color: #1A60A2;
+    background-color:  #DE7979;
     color: #FFFFFF;
     border: none;
     opacity: 100%;
@@ -185,26 +185,6 @@ section div.content{
 }
 
 .button-1 :hover {
-    background-color: #FFFFFF;
-    color: #1A60A2;
-}
-
-.button-2 button {
-    width: 30%;
-    margin-left: 15px;
-    margin-top:30px;
-    /* justify-content: center; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
-    background-color: #DE7979;
-    color: #FFFFFF;
-    border: none;
-    padding-left: 15px;
-    opacity: 100%;
-    /* cursor: pointer; */
-}
-
-.button-2 :hover {
     background-color: #FFFFFF;
     color: #DE7979;
 }
@@ -221,26 +201,17 @@ p {
 }
 
 h1{
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'D-DIN-Bold', Arial, verdana, sans-serif;
     font-style: normal;
     font-weight: bold;
     color: #0E2E6D;
     /* margin: auto; */
-    margin-top: 170px;
+    margin-top: 200px;
     margin-left: 550px;
     text-transform: uppercase;
 }
 
-h2{
-    font-size: 70px;
-    font-family: 'D-DIN-Bold', Arial, verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    color: #0E2E6D;
-    margin-left: 550px;
-    text-transform: uppercase;
-}
 
 h3{
     font-size: 20px;
@@ -249,6 +220,8 @@ h3{
     font-weight: bold;
     color: #0E2E6D;
     margin-left: 550px;
+    margin-right: 100px;
+    border-radius: 10px;
 }
 
 h4 {
