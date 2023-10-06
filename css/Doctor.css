@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@ nav{
 .wrap-menu a:hover:not(.active) {
     background-color: #AED2FF;
     padding: 8px 25px;
-  }
+}
 
 .wrap-menu a.active{
     background-color: #AED2FF;
@@ -57,8 +57,8 @@ nav{
     padding: 8px 25px;
     font-size: 16px;
     text-decoration: none;
-  }
-  
+}
+
 .menu{
     margin: 0px 16px;
     font-size: 16px;
@@ -102,95 +102,42 @@ section div.content-outer{
 
 section div.content{
     position: relative;
-    /* position: absolute; */
-    /* left: 50px; */
-    /* max-width: 360px; */
-    /* opacity:0; */
-    /* bottom:10vh; */
-    /* top: 10vh; */
     transition: all .5s linear;
 }
 
 .content-doctor {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
-}
-
-.content-doctor-left {
-    margin-top: 50px;
-    width: 25%;
-    height: 350px;
-    display: flex;
     justify-content: center;
-    background-color: transparent;
-    border-radius: 20%;
+    gap: 20px;
+    height: 1350px;
 }
-
-.content-doctor-center {
-    margin-top: 50px;
-    width: 25%;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    border-radius: 20%;
-}
-
-.content-doctor-right {
-    margin-top: 50px;
-    width: 25%;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    border-radius: 20%;
-}
-
-/* .doctor-list {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 .doctor-card {
-    width: 70%;
-    height: 70%;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
     background-color: #BDD6F2;
-    border-radius: 10%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .doctor-card img {
     width: 70%;
+    max-width: 200px;
     border-radius: 50%;
-    margin-left: 40px;
-    margin-top: -80px;
-    /* margin-bottom: 30px; */
+    margin: 20px auto;
 }
 
-.button-1 button {
-    width: 100%;
-    margin-top: 65px;
-    /* justify-content: center; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
-    background-color:  #DE7979;
-    color: #FFFFFF;
-    border: none;
-    opacity: 100%;
-    /* cursor: pointer; */
-}
-
-.button-1 :hover {
-    background-color: #FFFFFF;
-    color: #DE7979;
+h4, h5, h6 {
+    margin: 10px 0;
 }
 
 p {
     display: flex;
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     justify-content: center;
     /* margin-bottom: 30px; */
     font-family: 'D-DIN-Bold', Arial, verdana, sans-serif;
@@ -223,36 +170,8 @@ h3{
     border-radius: 10px;
 }
 
-h4 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    font-family: Poppins, sans-serif;
-    font-size: 18px;
-    color: #000000;
+@media (max-width: 768px) {
+    .doctor-card {
+        max-width: 100%;
+    }
 }
-
-h5 {
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: 30px; */
-    font-family: Poppins, sans-serif;
-    font-size: 15px;
-    color: #0E2E6D;
-}
-
-h6 {
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: 30px; */
-    font-family: Poppins, sans-serif;
-    font-size: 13px;
-    color: #0E2E6D;
-}
-
-section .footer{
-    width: 100%;
-    height: 25px;
-    background-color: white;
-}
-
