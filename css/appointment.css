@@ -1,4 +1,4 @@
- *{
+*{
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin:0;
@@ -22,8 +22,10 @@ nav{
 }
 
 .logo img{
+    
     align-items: center;
     display: flex;
+    font-weight: 600;
 }
 
 .wrap-menu{
@@ -40,15 +42,10 @@ nav{
     padding: 8px 25px;
   }
 
-.appointment-btn {
-  margin-left: 25px;
-  background: #19A7CE;
-  color: white;
-  border-radius: 50px;
-  padding: 8px 25px;
-  font-size: 16px;
-  text-decoration: none;
-}
+.wrap-menu a.active{
+    background-color: #AED2FF;
+    padding: 8px 25px;
+}  
 
 .menu{
     margin: 0px 16px;
@@ -56,9 +53,20 @@ nav{
     font-weight: 500;
 }
 
+.appointment-btn {
+    margin-left: 25px;
+    background: #19A7CE;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 25px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  
 .data h1{
     color:#146C94;
-    text-align: center;
+    margin-left: 39%;
     margin-top: 20px;
     font-weight: 600;
     font-size: 30px;
@@ -66,7 +74,7 @@ nav{
 }
 
 .data a{
-    margin-left: 25px;
+    
     background: #C70039;
     color: white;
     border-radius: 10px;
@@ -78,7 +86,8 @@ nav{
 }
 
 .data a:hover:not(.active) {
-    background-color: #D80032;
+    background-color: #DE7979;
+    color: white;
     padding: 5px 25px;
   }
 
@@ -89,7 +98,7 @@ nav{
   table {
     border-collapse: collapse;
     width: 70%;
-    margin: 120px 200px;
+    margin: 120px 185px;
 }
 
 table, th, td {
