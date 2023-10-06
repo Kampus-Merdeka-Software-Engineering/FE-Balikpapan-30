@@ -16,22 +16,30 @@
   <div class="container">
     <div class="screen">
       <div class="screen__content">
-        <form class="login" id="form">
-            <img src="./foto/logo-removebg-preview.png" alt="Avatar" class="avatar">
-          <div class="login__field">
-            <input type="text" id="fname" name="firstname" placeholder="Full Name" required>
-            <input type="text" id="fname" name="firstname" placeholder="Age" required>
 
+        <div class="login" id="form">
+          <img src="./foto/logo-removebg-preview.png" alt="Avatar" class="avatar">
+          <div class="login__field">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Full Name" required>
+
+            <label for="umur">Umur:</label>
+            <input type="text" id="age" name="age" placeholder="Age" required>
+
+            <label for="gender">Gender</label>
             <select id="gender" name="gender" required>
-              <option value="menu">Open this select menu</option>
+              <option value="" disabled selected>Select Gender</option>
               <option value="Male">Male</option>
               <option value="Female">Female</option>
             </select>
 
-            <input type="date" />
+            <label for="date">Date:</label>
+            <input id="date" type="date" />
             
-            <input type="text" id="fname" name="firstname" placeholder="Phone Number" required>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
 
+            <label for="specialist">Specialist:</label>
             <select id="specialist" name="specialist" required>
               <option value="menu">Open this select menu</option>
               <option value="CARDIOLOGIST">CARDIOLOGIST</option>
@@ -42,15 +50,15 @@
               <option value="RADIOLOGY">RADIOLOGY</option>
             </select>
 
+            <label for="doctor">Doctor:</label>
             <select name="subopsi" id="subopsi"></select>
 
-    <textarea id="subject" name="subject" placeholder="Reason.." style="width:235px"></textarea>
+            <textarea id="reason" name="reason" placeholder="Reason.." style="width:50%"></textarea>
 
-          <button class="button login__submit" required>
+            <button id="submit" class="login__submit" required>
             <span class="button__text">SUBMIT</span>
           </button>
-
-        </form>
+        </div>
       </div>
     </div>
   </div>

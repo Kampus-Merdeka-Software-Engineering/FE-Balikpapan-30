@@ -1,3 +1,10 @@
+// Pop Up
+const popup = document.querySelector('.popup');
+
+
+
+
+
 const userTable = document.getElementById('tbody');
 
 fetch('https://be-balikpapan-30-production.up.railway.app/appointment')
@@ -27,4 +34,3 @@ fetch('https://be-balikpapan-30-production.up.railway.app/appointment')
 // Detail Appointment
 const tdElement = document.querySelector('last');
 const dataId = tdElement.getAttribute('id-data');
-
