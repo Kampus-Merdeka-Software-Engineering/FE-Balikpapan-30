@@ -24,7 +24,6 @@ nav{
 .logo img{
     align-items: center;
     display: flex;
-    font-weight: 600; 
 }
 
 .wrap-menu{
@@ -120,13 +119,5 @@ img {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-    /* For tablets: */
-    body{margin: auto;}
-    .logo{ width: 2%;}
-    .wrap-menu{ width: 8.3%;
-    font-size: 5px;
-    margin: 0px 0px;}
-    .menu{width: 10%;}
-    .data{ width: 10%;}
-  }
+
+  

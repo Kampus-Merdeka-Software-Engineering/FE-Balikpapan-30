@@ -20,14 +20,14 @@ body {
 	background: white;
     opacity: 0.85;	
 	height: 100%;
-	width: 55%;	
+	width: 100%;	
 	box-shadow: 0px 0px 24px #8CABFF;
     justify-content: center;
 }
 
 .screen__content {
 	height: 100%;
-    margin: 0px 200px;
+    margin: 0px 500px;
     justify-content: center;
 }
 
