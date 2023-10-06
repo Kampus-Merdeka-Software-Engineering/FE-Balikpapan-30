@@ -9,6 +9,71 @@ body{
     width: 100%;
 }
 
+.popup {
+    /* display: none; */
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.detailAppointment {
+    background-color: #FFFFFF;
+    background-position: center center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 40px;
+    border-radius: 30px;
+}
+
+.detailAppointment > #btn {
+    margin-top: 30px;
+    padding: 3px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1A60A2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detailAppointment > #btn:hover {
+    background-color: #1c76ca;
+}
+
+.infoAppointment {
+    width: 100%;
+}
+
+.detailInfoAppointment {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.detailInfoAppointment h4{
+    font-weight: 700;
+}
+
+.detailInfoAppointment p {
+    font-weight: 500;
+}
+
+.titleForm {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #0E2E6D;
+}
+
 nav{
     width: 100%;
     height: 80px;
