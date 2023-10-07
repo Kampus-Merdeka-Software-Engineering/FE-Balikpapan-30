@@ -1,0 +1,188 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    padding: 0px 100px;
+    color: #19A7CE;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo img{
+    height: 70px;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+.wrap-menu{
+    display: flex;
+    align-items: center;
+}
+
+.wrap-menu a{
+    text-decoration: none;
+}
+
+.wrap-menu a:hover:not(.active) {
+    background-color: #AED2FF;
+    padding: 8px 25px;
+  }
+
+.wrap-menu a.active{
+    background-color: #AED2FF;
+    padding: 8px 25px;
+}  
+
+.menu{
+    margin: 0px 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.appointment-btn {
+    margin-left: 25px;
+    background: #19A7CE;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 25px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+
+.Doctors-section{
+    width: 100%;
+    height: 650px; 
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../background/profil6.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Doctor-information h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 15px;
+    color: #062b3b;
+}
+
+.Doctor-information h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 140px;
+    color: #19A7CE;
+}
+
+.Doctor-information h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 15px;
+    color: black;
+ 
+    padding-left: 200px;
+}
+
+.Doctor-information h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 2px;
+    text-align: left;
+    margin-left: 15px;
+    color: black;
+ 
+    padding-left: 140px;
+}
+
+.Doctor-information p{
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-style: bold;
+    margin-left: 15px;
+    display: flex;
+    color: #062b3b;
+ 
+    padding-left: 100px;
+}
+
+.Doctor-information h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-style: normal;
+    margin-left: 15px;
+    display: flex;
+    color: #062b3b;
+
+    padding-left: 170px;
+    font-weight: 400;
+}
+
+.Doctor-information h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: left;
+    font-style: normal;
+    margin-left: 15px;
+    color: #062b3b;
+    padding-left: 250px;
+    font-weight: 400;
+}
+
+.Doctor-information h7{
+    padding-left: 200px;
+}
+
+.checked {
+    color: orange;
+  }
+
+.BookNow-btn{
+    margin-left: 150px;
+    background: #19A7CE;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 35px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.other-btn{
+    margin-left: 15px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 35px;
+    font-size: 16px;
+    text-decoration: none;
+}

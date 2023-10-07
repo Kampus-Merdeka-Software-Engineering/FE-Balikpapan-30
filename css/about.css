@@ -1,0 +1,243 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    padding: 0px 100px;
+    color: #19A7CE;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo img{
+    height: 70px;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+.wrap-menu{
+    display: flex;
+    align-items: center;
+}
+
+.wrap-menu a{
+    text-decoration: none;
+}
+
+.wrap-menu a:hover:not(.active) {
+    background-color: #AED2FF;
+    padding: 8px 25px;
+  }
+
+.wrap-menu a.active{
+    background-color: #AED2FF;
+    padding: 8px 25px;
+}  
+
+.menu{
+    margin: 0px 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.appointment-btn {
+    margin-left: 25px;
+    background: #19A7CE;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 25px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  
+  .hero-section{
+    width: 100%;
+    height: 670px;
+    padding: 0px 120px;
+    align-items: center;
+    background-size: cover;
+    display: flex;
+}
+
+.hero-information h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.hero-information p{
+    font-size: 20px;
+    margin-bottom: 28px;
+    text-align: center;
+    color: white;
+}
+
+.data{
+    width: 100%;
+    height: 1200px;
+    background: linear-gradient(180deg, white, #AED2FF);
+    text-align: center;
+}
+
+.data-kami h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding-top: 20px;
+    color: #146C94;
+}
+
+.data-kami p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 60px;
+}
+
+.visimisi {
+    margin: 10px 10px;
+    background-color: white;
+    height: 650px;
+    text-align: center;
+}
+
+.visimisi h1{
+padding-top: 30px;
+margin-bottom: 40px;
+color: #146C94;
+font-size: 40px;
+}
+
+.content-top {
+    display: flex;
+}
+
+.content-top-left {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.content-top-right {
+    width: 50%;
+text-align: justify;
+margin-left: 20px;
+}
+
+.section{
+    width: 100%;
+    height: 1020px;
+    background: #BAD7E9; 
+}
+
+.section-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #146C94;
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.section .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+    }
+    
+    .section .icon-box {
+        text-align: center;
+        border: 1px solid white;
+        padding: 80px 20px;
+        border-radius: 12px;
+        width: 40%;
+        margin: 0px 30px;
+        background: white;
+      }
+    
+      .specialized{
+        color: #146C94;
+        padding: 8px 25px;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 -120px 0;
+   
+  }
+  
+  img.avatar {
+    margin-top: -220px;
+    width: 60%;
+    border-radius: 50%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #146C94;
+  }
+
+.plus{
+    width: 100%;
+    height: 700px;
+    background: #BAD7E9;
+}
+
+.plus .icon-box1 {
+    text-align: center;
+    border: 1px solid #146C94;
+    padding: 50px 20px;
+    border-radius: 12px;
+    width: 40%;
+    margin: 200px 20px;
+    background: white;
+    margin-top: 280px;
+  }
+
+  .plus .column{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .content{
+        color: white;
+        padding: 8px 25px;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+    .column h4{
+background: #146C94;
+padding: 8px 20px;
+border-radius: 50px;
+margin: -70px 0px;
+margin-bottom: 20px;
+    }
+
+    .column p{
+justify-content: center;
+margin-top: 5px;
+    }
+
+.footer{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px;
+}
