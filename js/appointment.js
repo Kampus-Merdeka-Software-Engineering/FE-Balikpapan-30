@@ -24,7 +24,7 @@ fetch('https://be-balikpapan-30-production.up.railway.app/appointment')
         <td>${data.data[i].umur}</td>
         <td>${data.data[i].doctor.nama}</td>
         <td>${data.data[i].reason}</td>
-        <td><img class="detail" data-id="${data.data[i].id}" src="https://img2.pngdownload.id/20180727/wcl/kisspng-logo-eye-eye-symbol-5b5b71026a50a0.4980465915327193624355.jpg" width="30" height="30" alt=""></td>
+        <td><img class="detail" data-id="${data.data[i].id}" src="https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-Balikpapan-30/main/Asset/lihat.png" width="30" height="30" alt=""></td>
         `
         detailAppointment()
     }
