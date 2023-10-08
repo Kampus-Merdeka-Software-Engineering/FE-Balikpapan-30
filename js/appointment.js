@@ -24,7 +24,7 @@ fetch('https://be-balikpapan-30-production.up.railway.app/appointment')
         <td>${data.data[i].umur}</td>
         <td>${data.data[i].doctor.nama}</td>
         <td>${data.data[i].reason}</td>
-        <td><img class="detail" data-id="${data.data[i].id}" src="../Asset/lihat.png" alt=""></td>
+        <td><img class="detail" data-id="${data.data[i].id}" src="https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-Balikpapan-30/main/Asset/lihat.png" alt=""></td>
         `
         detailAppointment()
     }
@@ -33,7 +33,6 @@ fetch('https://be-balikpapan-30-production.up.railway.app/appointment')
 .catch(error => {
     console.log(error);
 })
-
 
 
 
@@ -50,45 +49,45 @@ function detailAppointment() {
 
             // Get Id
             const dataId = this.getAttribute('data-id');
-            
+
             // Data
             fetch(`https://be-balikpapan-30-production.up.railway.app/appointment/${dataId}`)
             .then(response => response.json())
             .then(data => {
                 const Data = data.data;
                 infoAppointment.innerHTML = `
-                <div class="detailInfoAppointment">
-                    <h4>Date</h4>
-                    <p>: ${Data.date}</p>
-                </div>
-                <div class="detailInfoAppointment">
-                    <h4>Name</h4>
-                    <p>: ${Data.nama}</p>
-                </div>  
-                <div class="detailInfoAppointment">
-                    <h4>Age</h4>
-                    <p>: ${Data.umur}</p>
-                </div>
-                <div class="detailInfoAppointment">
-                    <h4>Gender</h4>
-                    <p>: ${Data.gender}</p>
-                </div>
-                <div class="detailInfoAppointment">
-                    <h4>Phone</h4>
-                    <p>: ${Data.phone}</p>
-                </div>
-                <div class="detailInfoAppointment">
-                    <h4>Specialist</h4>
-                    <p>: ${Data.doctor.specialist}</p>
-                </div>
-                <div class="detailInfoAppointment">
-                    <h4>Doctor</h4>
-                    <p>: ${Data.doctor.nama}</p>
-                </div>
-                <div class="detailInfoAppointment">
-                    <h4>Reason</h4>
-                    <p>: ${Data.reason}</p>
-                </div>
+                    <div class="detailInfoAppointment">
+                        <h4>Date</h4>
+                        <p>: ${Data.date}</p>
+                    </div>
+                    <div class="detailInfoAppointment">
+                        <h4>Name</h4>
+                        <p>: ${Data.nama}</p>
+                    </div>  
+                    <div class="detailInfoAppointment">
+                        <h4>Age</h4>
+                        <p>: ${Data.umur}</p>
+                    </div>
+                    <div class="detailInfoAppointment">
+                        <h4>Gender</h4>
+                        <p>: ${Data.gender}</p>
+                    </div>
+                    <div class="detailInfoAppointment">
+                        <h4>Phone</h4>
+                        <p>: ${Data.phone}</p>
+                    </div>
+                    <div class="detailInfoAppointment">
+                        <h4>Specialist</h4>
+                        <p>: ${Data.doctor.specialist}</p>
+                    </div>
+                    <div class="detailInfoAppointment">
+                        <h4>Doctor</h4>
+                        <p>: ${Data.doctor.nama}</p>
+                    </div>
+                    <div class="detailInfoAppointment">
+                        <h4>Reason</h4>
+                        <p>: ${Data.reason}</p>
+                    </div>
                 `
             })
         })
